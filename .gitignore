@@ -1,0 +1,59 @@
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build cache
+*.test
+*.out
+*.cover
+coverage.out
+
+# Dependency directories (only if you vendor)
+vendor/
+
+# Go workspace file (if using go work)
+go.work
+go.work.sum
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Air (live reload)
+tmp/
+.air/
+air
+
+# Docker
+docker-compose.override.yml
+
+# Test binaries
+*.test
+
+# Delve debugger
+__debug_bin
+
+# Swagger generated docs (optional, remove if you want them committed)
+/docs/swagger.json
+/docs/swagger.yaml
+/docs/docs.go
