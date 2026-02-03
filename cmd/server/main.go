@@ -28,7 +28,7 @@ func main() {
 
 	app, err := app.New()
 	if err != nil {
-		log.Fatalf("Application initialization failed: %v", err)
+		log.Fatalf("Application initialization failed okie man: %v", err)
 	}
 	defer app.Close()
 
